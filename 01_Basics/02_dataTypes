@@ -20,10 +20,6 @@ console.log(typeof age);
 4)null=standalone value
 5)undefined=not define value
 6)symbol=unique
-
-
-
-
 */
 
 
