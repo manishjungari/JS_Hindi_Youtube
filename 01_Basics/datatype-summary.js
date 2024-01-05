@@ -45,3 +45,29 @@ const myFunction = function(){
 
 
 console.log(typeof bigNumber );
+
+
+// ************************************Memory*********************************************************************
+// 1)Stack (Premitive)
+// 2)Heap (Non-premative)
+// ex:-
+
+
+let myYoutubename = "hiteshchoudharydotcom"
+
+let anotherName = myYoutubename;
+anotherName = "chaiorcode"
+console.log(anotherName);
+console.log(myYoutubename);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+    }
+
+    let userTwo = userOne
+
+    userTwo.email = "hitesh@google.com"
+
+    console.log(userOne.email);    
+    console.log(userTwo.email);    
