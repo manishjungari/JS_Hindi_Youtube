@@ -121,3 +121,12 @@ const {courseInstructor:instructor} = course
 // console.log(courseInstructor);
 console.log(instructor);
  
+
+// JASON Format (keys and value of jason in string format)
+
+// {
+
+// "firstname": "Hitesh",
+// "lastname": "chaudari"
+// "Address": "Nagpur"
+// }
